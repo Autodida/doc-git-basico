@@ -32,6 +32,9 @@
 Fazer um commit
 > $ git commit -m "<descrição>"
 
+Adicionar os arquivos ao area stage e fazer um commit
+> $ git commit -am "<descrição>"
+
 Incluir alteração no último commit
 > $ git commit -m "<descricao>" --amend
 
