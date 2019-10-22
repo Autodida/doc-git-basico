@@ -1,5 +1,5 @@
 ## GERAR CHAVE SSH
-
+- Em caso de acesso ssh
 > $ ssh-keygen -t rsa -b 4096 -C "{seu email}"
 
 ## CONFIGURAÇÕES DE USUÁRIO
@@ -87,7 +87,6 @@ Abortar O Merge
 > $ git merge --abort
 
 
-
 ## REPOSITÓRIO
 
 Adicionar Repositório Remoto:
@@ -121,7 +120,6 @@ Hahs, branch, Mensagem
 
 Os últimos dois commit, com suas alterações
 > $ git log -p -2
-
 
 
 # OUTROS 
