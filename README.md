@@ -205,4 +205,4 @@ git cherry-pick <hash_commit>
 > $ git show <hash_commit>
 
 ## MOSTRAR USUÁRIO QUE ALTEROU POR ULTIMO AQUELA LINHA
-> $ git blame <file>
+> $ git blame <name_file>
