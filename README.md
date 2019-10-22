@@ -184,14 +184,14 @@ Verificar alterações sem Espaços
 Alterações entre os commits
 > $ git diff <hash_commit>..<hash_commit>
 
-# TAG
+## TAG
 Cria uma tag, opcional deixa uma mensagem
 > $ git tag -a <version_name> [ -m "mesngaem" ] opcional
 
 Ver Tags
 > $ git tag
 
-# squasd
+## squasd
 
 - Selecionar commits para junta-los
 > $ git rebase -i HEAD~<number>
@@ -200,9 +200,9 @@ Ver Tags
 # cherry-pick
 git cherry-pick <hash_commit>
 
-# GIT SHOW 
+## GIT SHOW 
 - Mostra Arquivos a serem 
 > $ git show <hash_commit>
 
-# MOSTRAR USUÁRIO QUE A ALTERAÇÃO
-> $ git blame 
+## MOSTRAR USUÁRIO QUE ALTEROU POR ULTIMO AQUELA LINHA
+> $ git blame <file>
