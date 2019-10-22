@@ -1,8 +1,8 @@
-# GERAR CHAVE SSH
+## GERAR CHAVE SSH
 
 > $ ssh-keygen -t rsa -b 4096 -C "{seu email}"
 
-# CONFIGURAÇÕES DE USUÁRIO
+## CONFIGURAÇÕES DE USUÁRIO
 
 - Ver arquivo das Configurações.
 > $ cat C:/Users/{usuario}/.gitconfig
@@ -18,7 +18,7 @@
 
 
 
-# PRIMEIROS PASSOS
+## PRIMEIROS PASSOS
 
 - Criando um repositório (.git)
 > $ git init
@@ -27,7 +27,7 @@
 > $ git status
 
 
-# GIT COMMIT
+## GIT COMMIT
 
 Fazer um commit
 > $ git commit -m "<descrição>"
@@ -36,11 +36,7 @@ Incluir alteração no último commit
 > $ git commit -m "<descricao>" --amend
 
 
-# STAGE
-
-
-
-# BRANCH
+## BRANCH
 
 Criar nova branch:
 > $ git branch <name_branch>
@@ -74,10 +70,12 @@ Criar branch apartir de um upstream
 ** Branch são criadas com base na branch Atual
 (master)
 
-# FETCH
+## FETCH
+
+- Verificar se a alterações no repositório remoto
 > $ git fetch <name_remote>
 
-# MERGE
+## MERGE
 
 Fazer um merge (Dentro da branch)
 > $ git merge <name_branch>
@@ -114,7 +112,7 @@ Alterar nome do repositorio
 > $ git remote rename <old> <name>
 
 
-# Git Log
+## Git Log
 Todos as informações
 > $ git log
 
@@ -125,7 +123,6 @@ Os últimos dois commit, com suas alterações
 > $ git log -p -2
 
 
-===================
 
 # OUTROS 
 
@@ -208,5 +205,3 @@ git cherry-pick <hash_commit>
 
 # MOSTRAR USUÁRIO QUE A ALTERAÇÃO
 > $ git blame 
-
-=======================================================
